@@ -56,7 +56,7 @@ spec:
         - --source=crd
         - --crd-source-apiversion=externaldns.nginx.org/v1
         - --crd-source-kind=DNSEndpoint
-        - --domain-filter=<my-registered-subdomain>
+        - --domain-filter=<enter-your-registered-subdomain>
         - --provider=google
         - --google-project=<my-google-project-name>
         - --registry=txt
