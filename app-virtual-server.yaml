@@ -3,7 +3,7 @@ kind: VirtualServer
 metadata:
   name: cafe
 spec:
-  host: ingress.external-dns-gcp.rawdat.ai
+  host: <enter-subdomain-host>
   tls:
     secret: cafe-secret
   externalDNS:
