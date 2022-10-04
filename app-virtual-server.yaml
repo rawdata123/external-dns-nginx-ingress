@@ -5,7 +5,7 @@ metadata:
 spec:
   host: <enter-subdomain-host>
   tls:
-    secret: cafe-secret
+    secret: app-secret
   externalDNS:
     enable: true
   upstreams:
